@@ -16,7 +16,7 @@ export const Header = () => {
             <NavLink to="/card" className="link">Card</NavLink>
         </nav>
         <Link to="/card" className="item">
-            <span>Card : {cartList.lenght}</span>
+            <span>Card : {cartList.length}</span>
         </Link>
         </header>
     )
